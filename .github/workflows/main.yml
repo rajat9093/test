@@ -1,5 +1,5 @@
 on:
-  push:
+  push: [ master ]
     tags:
       - 'cat.v*.*.*'
 jobs:
